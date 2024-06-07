@@ -1,14 +1,12 @@
 #!/bin/bash
 
-LOGFILE=/ks/step2-verify.log
-set -e # exit once any command fails
+# Check if Helix editor is installed by verifying the version
+hx --version
 
-{
-    date
-
-    # Check if Helix editor is installed by verifying the version
-    helix --version
-
-} >> ${LOGFILE} 2>&1
-
-echo "done" # let Validator know success
+# If the command was successful, print "done" to indicate success
+if [ $? -eq 0 ]; then
+    echo "done"
+else
+    echo "Helix installation verification failed." >&2
+    exit 1
+fi
