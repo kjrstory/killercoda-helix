@@ -15,17 +15,12 @@
           "title": "Deletion in Helix",
           "text": "step2/text.md",
           "verify": "step2/verify.sh"
-        },
-        {
-          "title": "Insertion in Helix",
-          "text": "step3/text.md",
-          "verify": "step3/verify.sh"
         }
       ],
       "assets": {
         "host01": [
           {"file": "practice.txt", "target": "~/", "chmod": "+w"},
-          {"file": "practice2.txt", "target": "~/", "chmod": "+w"}
+          {"file": "test.txt", "target": "~/", "chmod": "+w"}
         ]
       }
     },
