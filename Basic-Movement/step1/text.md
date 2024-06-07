@@ -4,11 +4,13 @@
 
 The cursor can be moved using the h, j, k, l keys, as shown below:
 
+```
       ↑
       k       * h is on the left
   ← h   l →   * l is on the right
       j       * j looks like a down arrow
       ↓
+```
 
 Try moving around to get a feel for hjkl. Once you're ready, proceed to the next part of the lesson.
 

@@ -10,7 +10,17 @@
         {
           "title": "Basic Movement, Exiting, and Saving",
           "text": "step1/text.md"
+        },
+        {
+          "title": "Deletion in Helix",
+          "text": "step2/text.md",
+          "verify": "step2/verify.sh"
         }
+      ]
+    },
+    "assets": {
+      "host01": [
+        {"file": "practice.txt", "target": "~/practice.txt", "chmod": "+x"}
       ]
     },
     "backend": {
