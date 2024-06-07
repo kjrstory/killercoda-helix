@@ -10,14 +10,12 @@ The cursor can be moved using the h, j, k, l keys, as shown below:
       ↓
 ```
 
-Try moving around to get a feel for hjkl. Once you're ready, proceed to the next part of the lesson.
-
 ### Exiting Helix
 
 1. Type `:` to enter Command mode. Your cursor will move to the bottom of the screen.
 2. Type `q` or `quit` and press `Enter` to exit Helix.
 
-Note: The quit command will fail if there are unsaved changes. To force quit and DISCARD these changes, type `q!` or `quit!`.
+Note: The quit command will fail if there are unsaved changes. To force quit and discard these changes, type `q!` or `quit!`.
 
 To exit Command mode without entering a command, press `Escape`.
 
@@ -28,14 +26,13 @@ To exit Command mode without entering a command, press `Escape`.
 
 Note: You can optionally enter a filepath after the `w` or `write` command in order to save to that path.
 
-Let's practice these commands. Open a new file in Helix and try the following steps:
 
 ### Insert Commands
 
-i: Insert before the selection.
-a: Insert after the selection (a means 'append').
-I: Insert at the start of the line.
-A: Insert at the end of the line.
+ - i: Insert before the selection.
+ - a: Insert after the selection (a means 'append').
+ - I: Insert at the start of the line.
+ - A: Insert at the end of the line.
 
 ### Deleting Characters
 
