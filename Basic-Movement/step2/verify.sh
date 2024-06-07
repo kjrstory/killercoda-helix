@@ -4,7 +4,7 @@
 EXPECTED_CONTENT="This sentence has extra characters."
 
 # Read the content of the file
-FILE_CONTENT=$(cat deletion-practice.txt)
+FILE_CONTENT=$(cat ~/practice.txt)
 
 # Check if the content matches the expected content
 if [[ "$FILE_CONTENT" == "$EXPECTED_CONTENT" ]]; then

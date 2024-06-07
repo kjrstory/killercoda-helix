@@ -16,12 +16,12 @@
           "text": "step2/text.md",
           "verify": "step2/verify.sh"
         }
-      ]
-    },
-    "assets": {
-      "host01": [
-        {"file": "practice.txt", "target": "~/practice.txt", "chmod": "+x"}
-      ]
+      ],
+      "assets": {
+        "host01": [
+          {"file": "practice.txt", "target": "~/", "chmod": "+w"}
+        ]
+      }
     },
     "backend": {
       "imageid": "ubuntu"

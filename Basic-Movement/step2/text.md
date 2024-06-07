@@ -19,7 +19,7 @@ Let's practice these commands. Open the file deletion-practice.txt in Helix and 
 1. Open the file:
 
 ```
-hx deletion-practice.txt
+hx practice.txt
 ```{{exec}}
 
 2. Move the cursor to each extra character and type `d` to delete it.
