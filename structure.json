@@ -1,6 +1,6 @@
 {
     "items": [
-      { "path": "first-step" }
+      { "path": "first-step" },
       { "path": "Basic-Movement" }
     ]
   }
