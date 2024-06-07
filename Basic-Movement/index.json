@@ -1,0 +1,19 @@
+{
+    "title": "Helix Editor Tutorial",
+    "description": "Learn the basics of using the Helix editor through interactive exercises.",
+    "details": {
+      "intro": {
+        "text": "intro.md",
+        "background": "init.sh"
+      },
+      "steps": [
+        {
+          "title": "Basic Movement, Exiting, and Saving",
+          "text": "step1/text.md"
+        }
+      ]
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }

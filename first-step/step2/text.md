@@ -5,7 +5,7 @@ Now let's verify that the Helix editor was installed correctly.
 To check the version of the Helix editor, use the following command:
 
 ```sh
-helix --version
+hx --version
 ```{{exec}}
 
 If the version information is displayed, the Helix editor has been successfully installed!
